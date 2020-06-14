@@ -1,0 +1,51 @@
+body {
+  background-color: #5588ff;
+  color: rgba(255, 255, 255, 0.8);
+}
+a {
+  color: inherit;
+}
+dl,
+dt,
+dd {
+  margin: 0;
+}
+dl {
+  float: left;
+  outline: rgba(255, 255, 255, 0.8) dotted 1px;
+  width: 6em;
+  height: 5em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em;
+}
+dd {
+  overflow: hidden;
+  max-height: 100%;
+  max-width: 100%;
+}
+.char {
+  display: block;
+  margin: 0 auto;
+  width: 2em;
+  height: 2em;
+  padding: 0.5em;
+}
+.char svg {
+  height: 2em;
+}
+.char-code {
+  display: none;
+}
+.show-code .char-code {
+  display: block;
+}
+.char-name {
+  display: block;
+}
+.show-code .char-name {
+  display: none;
+}
+.char:link {
+  text-decoration: none;
+}
